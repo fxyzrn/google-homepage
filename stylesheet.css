@@ -1,3 +1,103 @@
+* {
+    outline: none;
+}
+
 .logo {
+    position: relative;
+    padding-top: 189px;
+}
+
+.logo-center {
+    display: block;
+    margin: 0 auto 25px auto;
+    height: 92px;
+    width: 272px;
+    box-sizing: border-box;
+}
+
+.input-outside {
+    display: block;
     margin: 0 auto;
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 13pt;
+}
+
+.input-inside {
+    background-image: url("https://www.seekclipart.com/clipng/middle/70-709132_search-magnifying-glass-icon-png-grey-clipart.png"), url("https://icon-library.net/images/android-mic-icon/android-mic-icon-8.jpg");
+    background-position: 2% 50%, 97% 50%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 15px, 25px;
+    padding-left: 35px;
+
+
+}
+
+
+.lucky {
+    display: inline-block;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    background-color: #f2f2f2;
+    color: #5F6368;
+}
+
+.search-btn {
+    display: inline-block;
+    max-height: 100%;
+    max-width: 100%;
+    top: 50%;
+    padding: 10px;
+    margin-top: 25px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    background-color: #f2f2f2;
+    color: #5F6368;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.search-bar {
+    outline: none;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: right;
+    color: #5F6368;
+}
+
+.navbar li {
+    float: right;
+    padding: 5px;
+}
+
+.grid-icon {
+ width: 24px;
+ height: auto;
+ padding: 5px;
+}
+
+.profile-pic-icon {
+    border-radius: 100%;
+}
+
+.nav-text {
+    top: 5px;
 }
